@@ -88,6 +88,42 @@ html {
         margin-top: -40px; /* Adjust to reduce extra space */
     }
 }
+@media(max-width: 995px) {
+    .home {
+        flex-direction: column;
+        margin: 5rem 4rem;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .home-content p {
+        padding-top: 2rem;
+        font-size: 1.4rem;
+    }
+
+    .home-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-img img {
+        width: 80vw;
+        max-width: 350px; /* Prevents it from becoming too large */
+        height: auto; /* Maintains aspect ratio */
+        margin-top: 3rem;
+        border-radius: 50%;
+        box-shadow: 10px 10px 20px rgba(149, 161, 249, 0.6);
+    }
+}
 
 @media(max-width:995px){
     nav{
